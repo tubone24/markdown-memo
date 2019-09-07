@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dirpath = "../posts";
+const dirpath = "./posts";
 const dirs = fs.readdirSync(dirpath).filter((f) => {
   return fs.existsSync(dirpath + "/" + f) && fs.statSync(dirpath + "/" + f).isDirectory()
 });
