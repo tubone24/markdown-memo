@@ -1,0 +1,25 @@
+{
+  "name": "markdown-memo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev posts",
+    "build": "vuepress build posts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tubone24/markdown-memo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tubone24/markdown-memo/issues"
+  },
+  "homepage": "https://github.com/tubone24/markdown-memo#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.4"
+  }
+}
