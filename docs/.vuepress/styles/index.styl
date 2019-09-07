@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&subset=japanese&display=swap');
+
+body {
+  font-family: 'Noto Sans JP',"游ゴシック Medium","Yu Gothic Medium","游ゴシック体","YuGothic","メイリオ", sans-serif !important
+
+  .content code {
+    font-family: 'Source Han Code JP', source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+    font-size: 0.8rem;
+    overflow-wrap: break-word;
+    padding: 0.15rem 0.5rem;
+  }
+}
+
+.theme-container .content{
+  h2 {
+    border-bottom: 8px solid #666;
+    padding-bottom: 0.3rem;
+  }
+
+  h3 {
+    border-bottom: 1px dotted #aaa;
+    padding-bottom: 0.3rem;
+  }
+}
+
+
+.table-of-contents {
+  background: #eee;
+  padding: 5px 5px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+abbr {
+  position: relative;
+  &::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    display: inline-block;
+    min-width: 200px;
+    padding: .6em .8em;
+    background: #3eaf7c;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    transform: translateX(-50%);
+    transition: .2s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  &:hover::after {
+    bottom: 120%;
+    opacity: 1;
+    visibility: visible;
+  }
+}
