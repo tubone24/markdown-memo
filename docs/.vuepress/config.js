@@ -41,7 +41,7 @@ module.exports = {
   },
   plugins: {
     '@vuepress/google-analytics': {
-      ga: 'UA-116s67778-5',
+      ga: 'UA-147267955-1',
     },
     '@vuepress/pwa': {
       serviceWorker: true,
