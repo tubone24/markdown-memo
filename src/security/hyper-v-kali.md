@@ -24,3 +24,7 @@
 しばらく起動までにかかるっぽい
 
 ![Img](https://i.imgur.com/JBy8qxd.png)
+
+完成
+
+![img](https://i.imgur.com/N3oQPSG.png)
