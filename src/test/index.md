@@ -44,3 +44,24 @@ export default {
 これは脚注[^1]のテストです
 
 [^1]:これは１つ目の脚注の内容です
+
+++inserted++
+
+::: warning
+*here be dragons*
+:::
+
+H~2~0
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
