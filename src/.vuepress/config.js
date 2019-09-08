@@ -40,7 +40,6 @@ module.exports = {
     md.use(require('markdown-it-footnote'));
     md.use(require('markdown-it-task-lists'));
     md.use(require('markdown-it-video'));
-    md.use(require('markdown-it-sanitizer'));
     md.use(require('markdown-it-sub'));
     md.use(require('markdown-it-deflist'));
   },
