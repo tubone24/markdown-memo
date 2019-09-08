@@ -29,6 +29,7 @@
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-katex": "^2.0.3",
+    "vue-embed-gist": "^1.0.2",
     "vue-property-decorator": "^8.2.2"
   }
 }
