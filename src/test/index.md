@@ -27,3 +27,8 @@ export default {
   }
 }
 ```
+
+<vue-embed-gist gist-id="tubone24/0cda077c3bc9d4159379292aba31b2a3" file="test"/>
+
+- [ ] todo
+- [x] done

@@ -8,12 +8,9 @@
   import VueEmbedGist from 'vue-embed-gist'
 
   export default {
-    props: {
-      gistId: String,
-      file: String
-    },
+    props: ["gistId", "file"],
     components: {
       VueEmbedGist
     }
-  }
+  };
 </script>

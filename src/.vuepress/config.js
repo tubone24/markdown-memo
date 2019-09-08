@@ -38,6 +38,7 @@ module.exports = {
     md.use(require('markdown-it-imsize'));
     md.use(require('markdown-it-abbr'));
     md.use(require('markdown-it-footnote'));
+    md.use(require('markdown-it-task-lists'));
   },
   plugins: {
     '@vuepress/google-analytics': {
