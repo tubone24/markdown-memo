@@ -34,3 +34,5 @@
 ### Kaliのアプリパッケージ
 
 [https://tools.kali.org/tools-listing](https://tools.kali.org/tools-listing)
+
+[21 Best Kali Linux Tools for Hacking and Penetration Testing](https://itsfoss.com/best-kali-linux-tools/)
