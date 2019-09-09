@@ -23,6 +23,7 @@ module.exports = {
     sidebar: 'auto',
     docsRepo: 'tubone24/markdown-memo',
     docsBranch: 'master',
+    docsDir: 'src',
     editLinks: true,
     editLinkText: 'Edit this',
     serviceWorker: {
