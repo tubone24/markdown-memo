@@ -82,3 +82,9 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 </mermaid>
+
+@startuml
+actor User
+component hello
+User -> hello: USERNAME
+@enduml

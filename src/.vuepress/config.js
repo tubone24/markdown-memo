@@ -43,6 +43,7 @@ module.exports = {
     md.use(require('markdown-it-video'));
     md.use(require('markdown-it-sub'));
     md.use(require('markdown-it-deflist'));
+    md.use(require('markdown-it-plantuml'));
   },
   plugins: {
     '@vuepress/google-analytics': {
