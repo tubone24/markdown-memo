@@ -50,7 +50,7 @@
 - [ ] King Phisher
 - [ ] Yersinia
 - [ ] Social Engineering Toolkit (SET)
-
+- [ ] owasp-zap
 ### Kaliのアプリパッケージ
 
 [https://tools.kali.org/tools-listing](https://tools.kali.org/tools-listing)
