@@ -58,4 +58,4 @@
 
 [21 Best Kali Linux Tools for Hacking and Penetration Testing](https://itsfoss.com/best-kali-linux-tools/)
 
-[https://qiita.com/prograti/items/00cba4ea0ab7d45cf61e](https://qiita.com/prograti/items/00cba4ea0ab7d45cf61e)
+[【セキュリティ】脆弱性診断・検査 ツール on Kali Linux](https://qiita.com/prograti/items/00cba4ea0ab7d45cf61e)
