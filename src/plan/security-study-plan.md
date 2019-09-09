@@ -10,7 +10,7 @@
 
 - [x] metasploitable構築
 - [x] kali linuxインストール
-- [ ] nmap
+- [x] nmap
 - [ ] netcat
   - [ ] reverse shell
 - [ ] hydra
@@ -51,6 +51,7 @@
 - [ ] Yersinia
 - [ ] Social Engineering Toolkit (SET)
 - [ ] owasp-zap
+- [ ] cree.py
 
 ### 参考リンク
 
