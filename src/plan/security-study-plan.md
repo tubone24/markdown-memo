@@ -33,4 +33,4 @@
 
 ### Kaliのアプリパッケージ
 
-(https://tools.kali.org/tools-listing)[https://tools.kali.org/tools-listing]
+[https://tools.kali.org/tools-listing](https://tools.kali.org/tools-listing)
