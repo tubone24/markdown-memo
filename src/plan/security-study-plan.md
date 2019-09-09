@@ -31,6 +31,22 @@
 - [ ] findmyhash
 - [ ] bee-box
 
+### 次
+
+- [ ] Lynis
+- [ ] WPScan
+- [ ] Skipfish
+- [ ] Maltego
+- [ ] Nessus
+- [ ] Apktool
+- [ ] sqlmap
+- [ ] John the Ripper
+- [ ] Snort
+- [ ] Autopsy Forensic Browser
+- [ ] King Phisher
+- [ ] Yersinia
+- [ ] Social Engineering Toolkit (SET)
+
 ### Kaliのアプリパッケージ
 
 [https://tools.kali.org/tools-listing](https://tools.kali.org/tools-listing)
