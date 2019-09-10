@@ -7,8 +7,6 @@ jobs:
         environment:
           PIPENV_VENV_IN_PROJECT: true
     steps:
-      - run: sudo chown -R circleci:circleci /usr/local/bin
-      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
       - run: git clone https://github.com/algolia/docsearch-scraper.git
       - run: cp config.json docsearch-scraper
       - run: cd docsearch-scraper && ./docsearch run config.json
