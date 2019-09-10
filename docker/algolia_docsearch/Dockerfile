@@ -47,16 +47,12 @@ RUN wget -q https://selenium-release.storage.googleapis.com/3.13/selenium-server
 RUN wget -q http://www.java2s.com/Code/JarDownload/testng/testng-6.8.7.jar.zip
 RUN unzip testng-6.8.7.jar.zip
 
-# Install DocSearch dependencies
-COPY Pipfile .
-COPY Pipfile.lock .
-
 ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 ENV PIPENV_HIDE_EMOJIS 1
-RUN apt-get update -y && apt-get install -yq \
+RUN apt-get install -yq \
     python3-pip
-RUN pip3 install pipenv
-COPY config.json .
 RUN apt-get install -yq git
+COPY config.json .
+COPY requirements.txt .
 
