@@ -9,5 +9,6 @@ jobs:
     steps:
       - run: git clone https://github.com/algolia/docsearch-scraper.git
       - run: cp config.json docsearch-scraper
+      - run: pipenv install --python 3.6
       - run: pipenv shell
       - run: cd docsearch-scraper && ./docsearch run config.json
