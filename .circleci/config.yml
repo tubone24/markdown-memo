@@ -10,4 +10,6 @@ jobs:
       - run: git clone https://github.com/algolia/docsearch-scraper.git
       - run: cp config.json docsearch-scraper
       - run: pip3 install -r requirements.txt
+      - run: echo "APPLICATION_ID=" $APPLICATION_ID > docsearch-scraper/.env
+      - run: echo "API_KEY=" $API_KEY= > docsearch-scraper/.env
       - run: cd docsearch-scraper && python3 docsearch run config.json
