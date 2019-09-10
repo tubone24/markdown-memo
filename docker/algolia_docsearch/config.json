@@ -5,12 +5,12 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "h1",
-    "lvl1": "h2",
-    "lvl2": "h3",
-    "lvl3": "h4",
-    "lvl4": "h5",
-    "lvl5": "h6",
-    "text": "p"
+    "lvl0": ".content h1",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
   }
 }
