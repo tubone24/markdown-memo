@@ -58,4 +58,5 @@ RUN apt-get update -y && apt-get install -yq \
     python3-pip
 RUN pip3 install pipenv
 RUN pipenv install --python 3.6
+COPY config.json .
 
