@@ -12,4 +12,4 @@ jobs:
       - run: pip3 install -r requirements.txt
       - run: echo "APPLICATION_ID=${APPLICATION_ID}" > docsearch-scraper/.env
       - run: echo "API_KEY=${API_KEY}" >> docsearch-scraper/.env
-      - run: cd docsearch-scraper && python3 docsearch run config.json < n
+      - run: cd docsearch-scraper && python3 docsearch run config.json
