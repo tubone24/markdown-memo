@@ -30,6 +30,7 @@ module.exports = {
       updatePopup: true,
     },
     algolia: {
+      appId: "PRHD8Z7068",
       apiKey: '7a11c69594bc587d09175a1dec031af9',
       indexName: 'vuepress'
     },
