@@ -7,7 +7,7 @@ jobs:
         environment:
           PIPENV_VENV_IN_PROJECT: true
     steps:
-      - run: git clone https://github.com/algolia/docsearch-scraper.git
+      - run: git clone https://github.com/tubone24/docsearch-scraper.git
       - run: cp config.json docsearch-scraper
       - run: pip3 install -r requirements.txt
       - run: echo "APPLICATION_ID=${APPLICATION_ID}" > docsearch-scraper/.env
