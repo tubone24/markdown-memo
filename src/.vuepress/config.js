@@ -34,6 +34,12 @@ module.exports = {
       apiKey: '7a11c69594bc587d09175a1dec031af9',
       indexName: 'vuepress'
     },
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Blog', link: 'https://blog.tubone-project24.xyz/' },
+      { text: 'Portfolio', link: 'https://www.gitshowcase.com/tubone24' },
+      { text: 'Github', link: 'https://github.com/tubone24' }
+    ]
   },
   markdown: {
     lineNumbers: true,
