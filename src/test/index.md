@@ -84,7 +84,7 @@ Class08 <--> C2: Cool label
 </mermaid>
 
 @startuml
-actor User
+actor Useraaaaaa
 component hello
 User -> hello: USERNAME
 @enduml
