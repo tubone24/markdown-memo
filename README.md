@@ -1,8 +1,8 @@
 # markdown-memo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/835a958e-9e63-422a-b53d-f56156e490ec/deploy-status)](https://app.netlify.com/sites/pedantic-lewin-5f8622/deploys)
-
 [![CircleCI](https://circleci.com/gh/tubone24/markdown-memo.svg?style=svg)](https://circleci.com/gh/tubone24/markdown-memo)
+[![CodeFactor](https://www.codefactor.io/repository/github/tubone24/markdown-memo/badge)](https://www.codefactor.io/repository/github/tubone24/markdown-memo)
 
 ## What is this?
 
