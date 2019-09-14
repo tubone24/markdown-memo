@@ -35,4 +35,4 @@ This vuepress using Algolia Docsearch and Build the scraper with CircleCI.
 
 If you edit the sources or markdowns, you can use Gitpod.
 
-[gitpod.io#https://github.com/tubone24/markdown-memo](https://github.com/tubone24/markdown-memo)
+[gitpod.io#https://github.com/tubone24/markdown-memo](https://gitpod.io#https://github.com/tubone24/markdown-memo)
