@@ -11,3 +11,9 @@ docker images -aq | xargs docker rmi
 ```
 docker ps -aq | xargs docker rm
 ```
+
+## ビルド時にキャッシュを無効化する
+
+```
+docker build --no-cache=true
+```
