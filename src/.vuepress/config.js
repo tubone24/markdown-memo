@@ -38,7 +38,8 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Blog', link: 'https://blog.tubone-project24.xyz/' },
       { text: 'Portfolio', link: 'https://www.gitshowcase.com/tubone24' },
-      { text: 'Github', link: 'https://github.com/tubone24' }
+      { text: 'GitHub', link: 'https://github.com/tubone24' },
+      { text: 'Resume', link: 'https://tubone24.github.io/resume/' }
     ]
   },
   markdown: {
