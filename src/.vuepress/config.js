@@ -66,6 +66,9 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true,
     },
+    'sitemap': {
+      hostname: 'https://note.tubone-project24.xyz'
+    },
   },
   serviceWorker: true,
 };
