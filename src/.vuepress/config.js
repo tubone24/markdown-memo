@@ -1,3 +1,7 @@
+const feed_options = {
+  canonical_base: 'https://note.tubone-project24.xyz',
+};
+
 module.exports = {
   lang: 'ja-JP',
   locales: {
@@ -69,6 +73,7 @@ module.exports = {
     'sitemap': {
       hostname: 'https://note.tubone-project24.xyz'
     },
+    'feed': feed_options,
   },
   serviceWorker: true,
 };
