@@ -44,7 +44,8 @@ module.exports = {
       { text: 'Blog', link: 'https://blog.tubone-project24.xyz/' },
       { text: 'Portfolio', link: 'https://www.gitshowcase.com/tubone24' },
       { text: 'GitHub', link: 'https://github.com/tubone24' },
-      { text: 'Resume', link: 'https://tubone24.github.io/resume/' }
+      { text: 'Resume', link: 'https://tubone24.github.io/resume/' },
+      { text: '500px', link: 'https://500px.com/tubone24/galleries/tubone-project' }
     ]
   },
   markdown: {
