@@ -32,5 +32,5 @@
 
 # Contacts
 
-[Resume](https://tubone24.github.io/resume/)
-[Public Key](https://github.com/tubone24.keys)
+- [Resume](https://tubone24.github.io/resume/)
+- [Public Key](https://github.com/tubone24.keys)
