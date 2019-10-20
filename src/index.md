@@ -21,6 +21,9 @@
 
 <ListContents category="android" />
 
+# loose contents
+
+<ListContents category="loose" />
 
 # Ansible
 
