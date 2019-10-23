@@ -24,6 +24,8 @@
 
 たまにはアーケードゲームに打ち込みたいもの。
 
+![img](https://raw.githubusercontent.com/tubone24/markdown-memo/master/src/loose/hukuwarai.png)
+
 ```
 :space_invader: :space_invader: :space_invader: :space_invader: :space_invader:
 :space_invader:       :boom: :space_invader:
@@ -39,7 +41,11 @@
 
 Slackのスタンプになぜ顔のパーツがあるか、考えた結果思いついた。
 
+ちょっとだけいびつにするのがミソ。
+
 正月にやろう！
+
+![img](https://raw.githubusercontent.com/tubone24/markdown-memo/master/src/loose/invador.png)
 
 ```
 :eye:   :eye: 
