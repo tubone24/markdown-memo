@@ -18,3 +18,32 @@
 :man-bowing::man-bowing::skin-tone-2::man-bowing::man-bowing::man-bowing::man-bowing::man-bowing::skin-tone-3:
 ```
 
+## インベーダゲーム
+
+あの有名なレトロゲーです。
+
+たまにはアーケードゲームに打ち込みたいもの。
+
+```
+:space_invader: :space_invader: :space_invader: :space_invader: :space_invader:
+:space_invader:       :boom: :space_invader:
+
+
+
+           │
+
+           凸
+```
+
+## 福笑い
+
+Slackのスタンプになぜ顔のパーツがあるか、考えた結果思いついた。
+
+正月にやろう！
+
+```
+:eye:   :eye: 
+    :nose::skin-tone-4: 
+    :lips:
+```
+
