@@ -2,6 +2,8 @@
 
 ## 謝罪ピラミッド
 
+![preview](https://raw.githubusercontent.com/tubone24/markdown-memo/master/src/loose/man-bowing-pyramid.png)
+
 ```
 :man-bowing: < ごめん！
                   :man-bowing::skin-tone-3:
