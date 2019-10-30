@@ -32,9 +32,63 @@ git reset HEAD [ファイル名]
 
 ### コミットコメントを修正したい
 
+#### 直前のコミットの場合
+
 ```
 git commit --amend -m "fix message"
 ```
+
+#### それ以外のコミットの場合
+
+```
+# ~ の数だけ、過去分をさかのぼる
+git rebase -i git rebase -i HEAD^~~~
+```
+
+と入力すると、さかのぼった分だけのコミットが表示され・・
+
+```
+pick a21a813bc commitメッセージ
+pick d821e1bca commitメッセージ
+
+# Rebase XXXXX..XXXXX onto XXXXXX
+#
+# Commands:
+#  p, pick = use commit
+#  r, reword = use commit, but edit the commit message
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#  f, fixup = like "squash", but discard this commit's log message
+#  x, exec = run command (the rest of the line) using shell
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+# However, if you remove everything, the rebase will be aborted.
+#
+```
+
+エディタで書き換えてあげて保存する
+
+pick => そのまま
+reword => コミットメッセージを変えたいやーつ
+
+rewordにしたやつがその次
+
+```
+hogeee
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Oct 30 00:38:19 2019 +0900
+#
+# interactive rebase in progress; onto 44c7d4b
+# Last commands done (2 commands done):
+#    pick 21b1144 logo
+
+```
+
+コミットメッセージの変更画面に遷移する
+
 
 ## commit
 
