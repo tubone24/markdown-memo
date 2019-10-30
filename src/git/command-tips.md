@@ -55,3 +55,13 @@ git push origin v1.0.x
 git tag -d v1.0.x
 git push origin :v1.0.x
 ```
+
+## 差分を確認したい
+
+### ブランチ同士を比較したい
+
+#### 元ブランチ(master)からどんな変更が加わったか見る
+
+```
+git log master..branch1
+```
