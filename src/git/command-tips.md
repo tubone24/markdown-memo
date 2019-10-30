@@ -32,3 +32,10 @@ git remote prune --dry-run origin
 git remote prune origin
 ```
 
+## 付け替え
+
+### 別ブランチからはやし直す
+
+```
+git rebase --onto はやし元ブランチ名 はやし元コミットハッシュ 移動させたいブランチ名
+```
