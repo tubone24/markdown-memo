@@ -146,7 +146,9 @@ git pop
 
 ### 別ブランチからはやし直す
 
-利用用途: 切り元のブランチがPRマージされて進んだときに、
+利用ケース: 
+
+切り元のブランチがPRマージされて進んだときに、
 
 「master進んだんで生やしなおしてね」
 
@@ -233,3 +235,29 @@ git commit --allow-empty
 ```
 
 参考: [git commit --allow-empty を使った WIP PR ワークフロー](https://qiita.com/a-suenami/items/129e09f8550f31e4c2da)
+
+## つまみ食い
+
+### 童貞コマンド cherry-pick
+
+例えばAさんが作っているfeature branchから一部の共通処理部分のコミットを拝借したいとき、
+
+つまみ食い機能、もとい童貞機能がある
+
+やりたいこと
+
+```
+commit 213dd32
+    main修正
+    
+commit 173vdd20
+    main修正2
+    
+commit 6742aa0b
+    便利なtime_util作りました　　<= こいつだけが欲しい！
+```
+
+```
+# 自分のブランチで
+git cherry-pick 6742aa0b
+```
