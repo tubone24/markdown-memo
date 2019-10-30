@@ -39,3 +39,19 @@ git remote prune origin
 ```
 git rebase --onto はやし元ブランチ名 はやし元コミットハッシュ 移動させたいブランチ名
 ```
+
+## タグの運用
+
+### タグを打つ
+
+```
+git tag -a v1.0.x -m "なんかコメントあれば"
+git push origin v1.0.x
+```
+
+### タグを消す
+
+```
+git tag -d v1.0.x
+git push origin :v1.0.x
+```
