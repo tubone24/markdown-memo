@@ -16,6 +16,12 @@
 git log --graph --oneline --decorate --all
 ```
 
+### logとともにファイルの変更差分も出す
+
+```
+git whatchanged -p
+```
+
 ## add
 
 ### 間違えてgit addしてしまった！
