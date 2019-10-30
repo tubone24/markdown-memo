@@ -40,6 +40,12 @@ git remote prune origin
 git rebase --onto はやし元ブランチ名 はやし元コミットハッシュ 移動させたいブランチ名
 ```
 
+### 特定コミットハッシュをブランチのHEADにしちゃう
+
+```
+git branch --create-reflog ブランチ名 コミットハッシュ
+```
+
 ## タグの運用
 
 ### タグを打つ
@@ -64,6 +70,20 @@ git push origin :v1.0.x
 
 ```
 git log master..branch1
+```
+
+#### 差分のあるファイルだけ列挙
+
+```
+git diff --name-only 
+```
+
+#### コミット同士の比較
+
+GitHubで便利なアレ
+
+```
+git diff コミットハッシュ コミットハッシュ
 ```
 
 ## WIP系
