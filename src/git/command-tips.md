@@ -409,3 +409,10 @@ git cherry-pick 6742aa0b
 
 git cherry-pick 6742aa0b..ca16709d
 ```
+
+## Gitの操作ログがみたい
+
+```
+git reflog
+```
+
