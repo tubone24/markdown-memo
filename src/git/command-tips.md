@@ -65,3 +65,16 @@ git push origin :v1.0.x
 ```
 git log master..branch1
 ```
+
+## WIP系
+
+### 空コミットを打つ
+
+WIPでPR出してから作業する人向け。
+first commitするまでWIP PRが作れないので空コミットを打つ運用。
+
+```
+git commit --allow-empty
+```
+
+参考: [git commit --allow-empty を使った WIP PR ワークフロー](https://qiita.com/a-suenami/items/129e09f8550f31e4c2da)
