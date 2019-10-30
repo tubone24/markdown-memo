@@ -4,22 +4,36 @@
 
 できないとペアプロで怒鳴られたり、雰囲気を悪くするのでよく使うやつをメモっとく。
 
-## log
+## 変更log
 
 ### 全ブランチをNetworkでそれっぽく出す
 
-利用用途
+利用用途: 今自分がどこにいるのか、どこにマージされるのか見る
 
 ```
 git log --graph --oneline --decorate --all
 ```
 
-## add/commit
+
+
+## add
 
 ### 差分をステージングエリアに追加する
 
 ```
 git add -p
+```
+
+### 間違えてgit addしてしまった！
+
+```
+git reset HEAD^ ファイル名
+```
+
+### コミットコメントを修正したい
+
+```
+git commit --amend -m "fix message"
 ```
 
 ## delete
@@ -38,6 +52,22 @@ git remote prune --dry-run origin
 
 ```
 git remote prune origin
+```
+
+## stash
+
+コメント、リストなど色々な機能があるけど、きちんと管理したいならブランチ切れやといわれるので基本これだけ
+
+### とりま退避
+
+```
+git stash
+```
+
+### 戻す
+
+```
+git pop
 ```
 
 ## 付け替え
