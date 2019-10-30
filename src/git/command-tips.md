@@ -255,9 +255,25 @@ commit 173vdd20
     
 commit 6742aa0b
     便利なtime_util作りました　　<= こいつだけが欲しい！
+    
+commit aa12301b
+    便利なtime_util作りました2
+    
+commit ca16709d
+    便利なtime_util作りました3
 ```
 
 ```
 # 自分のブランチで
 git cherry-pick 6742aa0b
+```
+
+コミットまとめてcherry-pickも可能だが99.9%コンフリクトする
+
+一個ずつやるか、まとめられるなら、git rebase -i でまとめてからやったほうがいい。
+
+```
+# 便利なtime_util作りました3までほしい
+
+git cherry-pick 6742aa0b..ca16709d
 ```
