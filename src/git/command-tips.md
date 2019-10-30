@@ -36,6 +36,9 @@ git remote prune origin
 
 ### 別ブランチからはやし直す
 
+利用用途: A「PRをmasterにマージしたんで、各featureはmasterから切り直してね」
+         ワイ「はい」
+
 ```
 git rebase --onto はやし元ブランチ名 はやし元コミットハッシュ 移動させたいブランチ名
 ```
