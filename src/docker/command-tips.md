@@ -17,3 +17,5 @@ docker ps -aq | xargs docker rm
 ```
 docker build --no-cache=true
 ```
+
+## コマンド履歴をみる
