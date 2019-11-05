@@ -61,6 +61,8 @@ $ git submodule update --init --recursive
 
 submoduleが指し示すcommitを変更する
 
+submoduleが難しいといわれるのはこの作業を submodule update -i と混同して表現している記事が多いからと思われる
+
 submodule配下のディレクトリに移動して、指定のコミットへ移動（checkoutとかで）してpullして、コミットすればOK
 
 ```
@@ -72,3 +74,14 @@ $ git add hoge
 $ git commit -m "Update submodule: hoge"
 ```
 
+## submoduleディレクトリの移動
+
+```
+$ git mv hoge vendor/hoge
+```
+
+## submoduleディレクトリの削除
+
+```
+$ git submodule deinit hoge
+```
