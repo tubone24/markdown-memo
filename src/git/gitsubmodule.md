@@ -57,4 +57,18 @@ $ git clone --recursive https://example.com/my-project.git
 $ git submodule update --init --recursive
 ```
 
-###
+### submoduleの更新
+
+submoduleが指し示すcommitを変更する
+
+submodule配下のディレクトリに移動して、指定のコミットへ移動（checkoutとかで）してpullして、コミットすればOK
+
+```
+$ cd hoge
+$ git checkout master
+$ git pull origin master
+$ cd ..
+$ git add hoge
+$ git commit -m "Update submodule: hoge"
+```
+
