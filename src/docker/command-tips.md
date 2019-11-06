@@ -8,6 +8,12 @@
 docker images -aq | xargs docker rmi
 ```
 
+### 1週間以上前に作ったイメージをすべて消す
+
+```
+docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm
+```
+
 ## コンテナをすべて消す
 
 ```
