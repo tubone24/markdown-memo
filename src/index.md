@@ -29,6 +29,10 @@
 
 <ListContents category="ansible" />
 
+# Analytics
+
+<ListContents category="ansible" />
+
 # test
 
 <ListContents category="test" />
