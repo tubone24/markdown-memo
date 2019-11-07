@@ -31,7 +31,7 @@
 
 # Analytics
 
-<ListContents category="ansible" />
+<ListContents category="analytics" />
 
 # test
 
