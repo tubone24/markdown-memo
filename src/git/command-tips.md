@@ -303,6 +303,8 @@ Unmerged paths:
         both added:      fuel/app/classes/util/message.php #コンフリクトしているやーつ
 ```
 
+`<<<<<<< HEAD` でファイル内検索する
+
 ```
 git add fuel/app/classes/util/message.php
 git rebase --continue
