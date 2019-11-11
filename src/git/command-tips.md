@@ -303,7 +303,7 @@ Unmerged paths:
         both added:      fuel/app/classes/util/message.php #コンフリクトしているやーつ
 ```
 
-`<<<<<<< HEAD` でファイル内検索する
+`<<<<<<< HEAD` でファイル内検索し、コンフリクトを直す
 
 ```
 git add fuel/app/classes/util/message.php
