@@ -281,6 +281,34 @@ git rebase --onto master branchAの中で生やしたい位置のコミットハ
 git push -f origin branchA
 ```
 
+#### もしコンフリクトしたら・・
+
+コンフリクトしたら直すしかない。
+
+```
+git status
+
+On branch b_branch
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git rebase --abort" to abort the merge)
+
+Changes to be committed:
+
+        new file:   fuel/app/classes/util/ahoge.php
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both added:      fuel/app/classes/util/message.php #コンフリクトしているやーつ
+```
+
+```
+git add fuel/app/classes/util/message.php
+git rebase --continue
+```
+
+
 ### 特定コミットハッシュをブランチのHEADにしちゃう
 
 通常タグを使うべきところだが、一部の現場ではブランチにリリースバージョンを振って保存するケースもある。
