@@ -21,6 +21,10 @@
 
 <ListContents category="android" />
 
+## AWS
+
+<ListContents category="aws" />
+
 ## loose contents
 
 <ListContents category="loose" />
