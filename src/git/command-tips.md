@@ -446,3 +446,9 @@ git cherry-pick 6742aa0b..ca16709d
 git reflog
 ```
 
+## 特定レポジトリで別名Git config使いたい
+
+```
+git config --local user.name "サブアカウント"
+git config --local user.email "サブアカウントメールアドレス"
+```
