@@ -1,5 +1,7 @@
 const feed_options = {
+    
   canonical_base: 'https://note.tubone-project24.xyz',
+
 };
 
 module.exports = {
@@ -75,6 +77,13 @@ module.exports = {
       hostname: 'https://note.tubone-project24.xyz'
     },
     'feed': feed_options,
+    'rss':
+        {
+          base_url: '/', // required
+          site_url: 'https://note.tubone-project24.xyz', // required
+          copyright: '2019 tubone', // optional
+          count: 200
+        }
   },
   serviceWorker: true,
 };

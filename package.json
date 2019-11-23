@@ -39,6 +39,7 @@
     "vue-embed-gist": "^1.0.2",
     "vue-property-decorator": "^8.2.2",
     "vuepress-plugin-feed": "^0.1.7",
+    "vuepress-plugin-rss": "^2.0.0",
     "vuepress-plugin-sitemap": "^2.1.2"
   }
 }

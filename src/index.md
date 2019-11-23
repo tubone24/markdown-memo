@@ -1,3 +1,12 @@
+---
+category: index
+tags:
+  - index
+date: 2019-01-21
+title: Note
+vssue-title: Note
+---
+
 # Note
 
 ちょっとしたメモ
