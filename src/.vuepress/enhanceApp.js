@@ -30,7 +30,7 @@ export default ({
   const dateType = typeof d;
 
   siteData.pages.filter(page => {
-    return /^\/posts\/.+/.test(page.path)
+    return /^\/.+\/.+/.test(page.path)
   }).map(page => {
     if (!page.frontmatter.date) {
       page.frontmatter['date'] = d;
