@@ -46,11 +46,13 @@
             edges{
               node{
                 name
+                color
               }
             }
           }
           primaryLanguage {
             name
+            color
           }
           defaultBranchRef {
             target {
