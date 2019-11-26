@@ -54,6 +54,10 @@ vssue-title: Note
 
 <ListContents category="web" />
 
+## Go
+
+<ListContents category="go" />
+
 ## test
 
 <ListContents category="test" />
