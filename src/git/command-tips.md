@@ -110,6 +110,12 @@ hogeee
 
 ## commit
 
+### 他のブランチのファイルの変更を取り込む
+
+```
+git checkout <ブランチ名> -- <対象ファイルのパス>
+```
+
 ### まちがってコミットしてしまった！！
 
 結構あるある。
@@ -220,6 +226,12 @@ git remote prune --dry-run origin
 
 ```
 git remote prune origin
+```
+
+もしくは
+
+```
+git fetch -p
 ```
 
 ## stash
