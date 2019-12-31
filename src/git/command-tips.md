@@ -27,6 +27,12 @@ git log --graph --oneline --decorate --all
 git whatchanged -p
 ```
 
+### コミットが属しているブランチ一覧
+
+```
+git branch --contains [コミットハッシュ]
+```
+
 ## add
 
 ### 間違えてgit addしてしまった！
@@ -107,6 +113,14 @@ hogeee
 
 コミットメッセージの変更画面に遷移する
 
+### バージョン管理されていないファイルを削除
+
+```
+# 確認
+git clean -n
+# 削除
+git clean -f 
+```
 
 ## commit
 
