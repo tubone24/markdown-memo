@@ -124,6 +124,12 @@ hogeee
 git reset --soft HEAD^
 ```
 
+indexも解除していい場合は
+
+```
+git reset --mixed HEAD^ 
+```
+
 #### コミットしたファイルは消していいゾ
 
 ```
