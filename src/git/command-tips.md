@@ -546,7 +546,13 @@ git diff --name-only --diff-filter=U
 git branch --merged master | grep -v '^\*' | xargs -n 1 git branch -d
 ```
 
+### より安全なforce push
 
+誰かの作業を上書きしない場合、リモートに強制的にpushする
+
+```
+git push --force-with-lease <remote-name> <branch-name>
+```
 
 
 
