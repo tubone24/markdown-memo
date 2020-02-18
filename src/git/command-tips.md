@@ -384,6 +384,16 @@ A「ポンコツブタやろう（tuboneの蔑称）。あれほどリリース�
 git branch --create-reflog ブランチ名 コミットハッシュ
 ```
 
+## リモートブランチをforce pushした時の小技
+
+リモートブランチと同期してローカルの変更を上書きするワンライナーです。
+
+あるあるなシチュエーションはrebaseしてforce pushしたのち、別の環境でそれをローカルに取り込むときです。
+
+```
+git fetch origin && git reset --hard origin/branchname && git clean -f -d
+```
+
 ## タグの運用
 
 バージョン管理はgit tagを使うと幸せになる。
@@ -509,3 +519,32 @@ git reflog
 git config --local user.name "サブアカウント"
 git config --local user.email "サブアカウントメールアドレス"
 ```
+
+## 小技
+
+### 前にいたブランチに素早く移動する
+
+```
+git checkout -
+```
+
+### masterにマージ済みのブランチを表示する
+
+```
+git branch --merged master
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
