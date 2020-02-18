@@ -534,7 +534,11 @@ git checkout -
 git branch --merged master
 ```
 
+### 全てのコンフリクトしているファイルを表示する
 
+```
+git diff --name-only --diff-filter=U
+```
 
 
 
