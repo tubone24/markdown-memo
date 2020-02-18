@@ -540,7 +540,11 @@ git branch --merged master
 git diff --name-only --diff-filter=U
 ```
 
+### masterにマージ済みのブランチを削除する
 
+```
+git branch --merged master | grep -v '^\*' | xargs -n 1 git branch -d
+```
 
 
 
