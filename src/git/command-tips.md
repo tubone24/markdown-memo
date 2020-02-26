@@ -27,6 +27,18 @@ git log --graph --oneline --decorate --all
 git whatchanged -p
 ```
 
+### 特定のファイルのコミット履歴
+
+```
+git log -- hoge.json
+```
+
+#### 変更差分も見たい時
+
+```
+git log -p -- hoge.json
+```
+
 ### コミットが属しているブランチ一覧
 
 ```
