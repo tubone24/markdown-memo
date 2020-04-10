@@ -8,7 +8,15 @@
 docker images -aq | xargs docker rmi
 ```
 
-### 1週間以上前に作ったイメージをすべて消す
+## dangling(宙ぶらりん)なイメージを消す
+
+
+
+```
+docker images --filter "dangling=true" -aq | xargs docker rmi 
+```
+
+### 1週間以上前に作ったコンテナをすべて消す
 
 ```
 docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm
