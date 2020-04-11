@@ -10,10 +10,14 @@ docker images -aq | xargs docker rmi
 
 ## dangling(宙ぶらりん)なイメージを消す
 
-
-
 ```
 docker images --filter "dangling=true" -aq | xargs docker rmi 
+```
+
+## 使用されていないコンテナ、イメージ、ボリュームの一発削除
+
+```
+docker system prune
 ```
 
 ### 1週間以上前に作ったコンテナをすべて消す
