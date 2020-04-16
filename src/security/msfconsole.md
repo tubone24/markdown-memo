@@ -23,3 +23,9 @@ sudo bundle install
 ```
 msfconsole
 ```
+
+### exploitを検索する
+
+```
+grep exploit search xxxx
+```
