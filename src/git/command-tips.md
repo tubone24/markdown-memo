@@ -406,6 +406,20 @@ git branch --create-reflog ブランチ名 コミットハッシュ
 git fetch origin && git reset --hard origin/branchname && git clean -f -d
 ```
 
+## 1ファイルだけ別のブランチから持ってくる
+
+誰かが別ブランチで作った特定のファイルだけ自分のブランチに取り込む場合
+
+```
+git checkout <ブランチ名> -- <ファイル名>
+
+or 
+
+git checkout <ブランチ名> -- <ディレクトリ名>
+```
+
+必要に応じて、commitを打てばよい。
+
 ## タグの運用
 
 バージョン管理はgit tagを使うと幸せになる。
