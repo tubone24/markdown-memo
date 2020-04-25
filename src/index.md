@@ -73,7 +73,11 @@ vssue-title: Note
 
 ## Mac
 
-<ListContents category="test" />
+<ListContents category="mac" />
+
+## Embedded
+
+<ListContents category="embedded" />
 
 ## test
 
