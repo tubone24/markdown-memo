@@ -15,6 +15,7 @@ R, G, BをそれぞれGPIOにさせばよい。
 
 コード[ここを参照](https://github.com/sunfounder/Sunfounder_SensorKit_Python_code_for_RaspberryPi/blob/master/02_rgb.py)
 
+```
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
 import time
