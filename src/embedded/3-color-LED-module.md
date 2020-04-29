@@ -70,4 +70,4 @@ except KeyboardInterrupt:
 
 動作
 
-![img](https://i.imgur.com/2fvWhST.gifv)
+![img](https://i.imgur.com/2fvWhST.gif)
