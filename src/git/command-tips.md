@@ -580,6 +580,12 @@ git branch --merged master | grep -v '^\*' | xargs -n 1 git branch -d
 git push --force-with-lease <remote-name> <branch-name>
 ```
 
+### コントリビューターを一覧にしたい
+
+```
+git log --all | grep 'Author' | sort -u
+```
+
 
 
 
