@@ -586,10 +586,11 @@ git push --force-with-lease <remote-name> <branch-name>
 git log --all | grep 'Author' | sort -u
 ```
 
+### git pullできないのでファイルを戻す
 
-
-
-
+```
+git restore ファイル名
+```
 
 
 
