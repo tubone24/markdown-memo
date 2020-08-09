@@ -14,6 +14,9 @@ vssue-title: Note
 ## Plan
 <ListContents category="plan" />
 
+## Linux
+<ListContents category="linux" />
+
 ## Security
 
 <ListContents category="security" />
