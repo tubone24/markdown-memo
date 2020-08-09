@@ -29,3 +29,15 @@ msfconsole
 ```
 grep exploit search xxxx
 ```
+
+### exploitを利用する
+
+```
+use exploit/xxxxx/xxxxxx/xxxxx_xxxx_xxx
+```
+
+### exploitのオプションを見る
+
+```
+show options
+```
