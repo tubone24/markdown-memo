@@ -17,4 +17,13 @@ export default {
   }
 }
 </script>
+<style scoped>
+.div-style {
+  width: 200%;
+  align-self: center;
+  align-content:center;
+  text-align: center;
+  margin: 0 auto; 
+}
+</style>
 </ClientOnly>
