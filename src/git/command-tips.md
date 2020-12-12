@@ -57,7 +57,7 @@ git branch --contains [コミットハッシュ]
 git reset HEAD [ファイル名]
 ```
 
-ファイル名がない場合はstageされたファイルすべてがunstageになるのでもういちどaddしような！
+*ファイル名がない場合はstageされたファイルすべてがunstageになるのでもういちどaddしような！*
 
 ### コミットコメントを修正したい
 
@@ -420,6 +420,51 @@ git checkout <ブランチ名> -- <ディレクトリ名>
 
 必要に応じて、commitを打てばよい。
 
+## コミットをまとめる
+
+コミットをまとめて本線に対してrevertしてpush、PRを作るのは常識だったりするので、やらないと怖い人がくることがある。
+
+良い子はPRするときはちゃんとコミットをまとめておこう！
+
+まとめたいコミットの数をrebaseで指定
+
+```
+git rebase -i HEAD~4
+```
+
+-i をつけることでeditorが出てくる
+
+```
+  1 pick 7752471 Update README.md¬
+  2 pick 7b3b13a Update README.md¬
+  3 ¬
+  4 # Rebase 7f7aaa2..7b3b13a onto 7f7aaa2 (2 commands)¬
+  5 #¬
+  6 # Commands:¬
+  7 # p, pick <commit> = use commit¬
+  8 # r, reword <commit> = use commit, but edit the commit message¬
+  9 # e, edit <commit> = use commit, but stop for amending¬
+ 10 # s, squash <commit> = use commit, but meld into previous commit¬
+ 11 # f, fixup <commit> = like "squash", but discard this commit's log message¬
+ 12 # x, exec <command> = run command (the rest of the line) using shell¬
+ 13 # b, break = stop here (continue rebase later with 'git rebase --continue')¬
+ 14 # d, drop <commit> = remove commit¬
+ 15 # l, label <label> = label current HEAD with a name¬
+ 16 # t, reset <label> = reset HEAD to a label¬
+ 17 # m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]¬
+ 18 # .       create a merge commit using the original merge commit's¬
+ 19 # .       message (or the oneline, if no original merge commit was¬
+ 20 # .       specified). Use -c <commit> to reword the commit message.¬
+ 21 #¬
+ 22 # These lines can be re-ordered; they are executed from top to bottom.¬
+ 23 #¬
+ 24 # If you remove a line here THAT COMMIT WILL BE LOST.¬
+ 25 #¬
+ 26 # However, if you remove everything, the rebase will be aborted.¬
+```
+
+まとめたいコミットを `pick` => `squash` または `s`に変更する
+
 ## タグの運用
 
 バージョン管理はgit tagを使うと幸せになる。
@@ -591,6 +636,8 @@ git log --all | grep 'Author' | sort -u
 ```
 git restore ファイル名
 ```
+
+
 
 
 
