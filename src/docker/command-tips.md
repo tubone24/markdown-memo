@@ -49,9 +49,11 @@ Dockerコンテナ内でなんか作業したいときはこんな感じにす�
 - `-m` でメモリ割り当て指定
 - `-it` 魔法の言葉、-iは標準入力をDockerコンテナにオープンし続ける、-tはttyを割り当てるという意味らしい
   - さらに書くと `-t` を指定しているとttyからの受付状態になるので `echo test | docker run -i busybox cat` のようなパイプやリダイレクトは使えないらしい
+- `-p` ポート開放 コンテナ:ホスト  
+- `-e` 環境変数
 
 ```
-docker run -c 200 -m 512m --rm --name hoge -h hoge -it ubuntu /bin/bash
+docker run -c 200 -m 512m -p 8000:80 -e ENV=dev --rm --name hoge -h hoge -it ubuntu /bin/bash
 ```
 
 ## Dockerコンテナの中に入るふたつの方法
