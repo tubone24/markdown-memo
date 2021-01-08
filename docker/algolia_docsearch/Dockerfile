@@ -53,6 +53,10 @@ ENV PIPENV_HIDE_EMOJIS 1
 RUN apt-get install -yq \
     python3-pip
 RUN apt-get install -yq git
-COPY config.json .
-COPY requirements.txt .
+RUN git clone https://github.com/tubone24/docsearch-scraper.git
+COPY config.json ./docsearch-scraper
+COPY requirements.txt ./docsearch-scraper
+COPY run_index.sh ./docsearch-scraper
+WORKDIR ./docsearch-scraper
+RUN pip3 install -r requirements.txt
 
