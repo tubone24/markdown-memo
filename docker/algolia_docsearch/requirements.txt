@@ -8,3 +8,4 @@ slacker==0.9.60
 tldextract==2.1.0
 pytest==3.10.0
 requests-iap==0.2.0
+pipenv
