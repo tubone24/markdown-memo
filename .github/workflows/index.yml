@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Run Index
     steps:
+      - name: docker login
+        run: docker login docker.pkg.github.com -u tubone24 -p ${{ secrets.GITHUB_TOKEN }}
       - name: docker pull algolia-docsearch
         run: docker pull docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch
       - name: Run Index
