@@ -20,7 +20,7 @@ jobs:
       - name: docker push algolia-docsearch
         run: docker push docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch
   index_algolia:
-#    needs: build_image
+    needs: build_image
     runs-on: ubuntu-latest
     name: Run Index
     steps:
