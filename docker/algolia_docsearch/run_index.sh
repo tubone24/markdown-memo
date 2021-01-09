@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 echo "API_KEY=${ALGOLIA_API_KEY}" >> .env
-./docsearch run config.json
+python3 cli/src/index.py run config.json
