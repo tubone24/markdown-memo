@@ -59,5 +59,3 @@ COPY requirements.txt ./docsearch-scraper
 COPY run_index.sh ./docsearch-scraper
 WORKDIR ./docsearch-scraper
 RUN pip3 install -r requirements.txt
-#RUN pipenv install
-#RUN pipenv install -r requirements.txt
