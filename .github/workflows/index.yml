@@ -29,10 +29,7 @@ jobs:
       - name: docker pull algolia-docsearch
         run: docker pull docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch
       - name: Run Index
-        run: docker run -e ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APIKEY }} -e ALGOLIA_APPLICATION_ID=${{ secrets.ALGOLIA_APPLICATION_ID }} --name algolia docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch  /bin/sh run_index.sh
-#       - name: Run Index
-#         uses: addnab/docker-run-action@v1
-#         with:
-#           image: docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch
-#           options: -e ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APIKEY }} -e ALGOLIA_APPLICATION_ID=${{ secrets.ALGOLIA_APPLICATION_ID }}
-#           run: /bin/sh run_index.sh
+        run: docker run -e ALGOLIA_API_KEY=$ALGOLIA_API_KEY -e ALGOLIA_APPLICATION_ID=$ALGOLIA_APPLICATION_ID --name algolia docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch  /bin/sh run_index.sh
+        env:
+          ALGOLIA_API_KEY:  ${{ secrets.ALGOLIA_APIKEY }}
+          ALGOLIA_APPLICATION_ID:  ${{ secrets.ALGOLIA_APPLICATION_ID }}
