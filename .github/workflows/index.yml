@@ -32,5 +32,5 @@ jobs:
         uses: addnab/docker-run-action@v1
         with:
           image: docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch
-          options: -e ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APIKEY }}
+          options: -e ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APIKEY }} ALGOLIA_APPLICATION_ID=${{ secrets.ALGOLIA_APPLICATION_ID }}
           run: /bin/sh run_index.sh
