@@ -2,4 +2,4 @@
 echo "API_KEY=${ALGOLIA_API_KEY}" >> .env
 #pipenv install
 #pipenv install -r requirements.txt
-./docsearch run config.json
+./docsearch run /root/docsearch-scraper/config.json
