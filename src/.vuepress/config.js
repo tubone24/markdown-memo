@@ -25,6 +25,15 @@ module.exports = {
         href: 'https://cdn.jsdelivr.net/npm/katex@0.6.0/dist/katex.min.css',
       },
     ],
+    [
+      'link',
+      {
+        rel: 'alternate',
+        href: '/rss.xml',
+        type='application/rss+xml',
+        title='tubone BOYAKI',
+      },
+    ],
   ],
   themeConfig: {
     sidebar: 'auto',
