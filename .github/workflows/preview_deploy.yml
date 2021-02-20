@@ -28,7 +28,7 @@ jobs:
           npm install
           npm run build
       - name: Deploy to netlify
-        run: npx netlify-cli deploy --dir=./.vuepress/dist > cli.txt
+        run: npx netlify-cli deploy --dir=./src/.vuepress/dist > cli.txt
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
