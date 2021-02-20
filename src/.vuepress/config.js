@@ -34,6 +34,14 @@ module.exports = {
         title: 'tubone BOYAKI',
       },
     ],
+    [
+      'link',
+      {
+        rel: 'sitemap',
+        href: '/sitemap.xml',
+        type: 'application/xml',
+      },
+    ],
   ],
   themeConfig: {
     sidebar: 'auto',
