@@ -28,7 +28,7 @@ module.exports = {
   ],
   themeConfig: {
     sidebar: 'auto',
-    footer: 'Text: CC BY-NC-ND 4.0 | Code: MIT Licensed | Copyright © 2019 tubone',
+    footer: 'Text: CC BY-NC-ND 4.0 | Code: MIT Licensed | Copyright © 2021 tubone',
     docsRepo: 'tubone24/markdown-memo',
     docsBranch: 'master',
     docsDir: 'src',
@@ -48,7 +48,6 @@ module.exports = {
       { text: 'Portfolio', link: 'https://portfolio.tubone-project24.xyz/' },
       { text: 'GitHub', link: 'https://github.com/tubone24' },
       { text: 'Resume', link: 'https://tubone24.github.io/resume/' },
-      { text: '500px', link: 'https://500px.com/tubone24/' }
     ]
   },
   markdown: {
