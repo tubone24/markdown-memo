@@ -28,5 +28,6 @@
       "lang"
     ]
   },
-  "scrap_start_urls": false
+  "scrap_start_urls": false,
+  "nb_hits": 90
 }
