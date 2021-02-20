@@ -30,8 +30,8 @@ module.exports = {
       {
         rel: 'alternate',
         href: '/rss.xml',
-        type='application/rss+xml',
-        title='tubone BOYAKI',
+        type: 'application/rss+xml',
+        title: 'tubone BOYAKI',
       },
     ],
   ],
