@@ -1,0 +1,22 @@
+name: BuildBaseImage
+on:
+  push:
+    branches:
+      - 'image/**'
+
+jobs:
+  build_image:
+    runs-on: ubuntu-latest
+    name: build Docker image
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: docker login
+        run: docker login docker.pkg.github.com -u tubone24 -p ${{ secrets.GITHUB_TOKEN }}
+      - name: docker backend algolia-docsearch
+        run: docker build -t algolia_docsearch_base -f Dockerfile.base .
+        working-directory: ./docker/algolia_docsearch
+      - name: docker tag change algolia_docsearch_base
+        run: docker tag algolia_docsearch_base docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch-base
+      - name: docker push algolia-docsearch-base
+        run: docker push docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch-base

@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch:latest
+FROM docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch-base:latest
 MAINTAINER tubone <tubo.yyyuuu@gmail.com>
 
 WORKDIR /root
