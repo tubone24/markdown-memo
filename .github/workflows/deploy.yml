@@ -13,6 +13,9 @@ jobs:
         uses: actions/checkout@v2
       - name: docker login
         run: docker login docker.pkg.github.com -u tubone24 -p ${{ secrets.GITHUB_TOKEN }}
+      - name: docker rmi
+        run: |
+          docker rmi docker.pkg.github.com/tubone24/markdown-memo/algolia-docsearch
       - name: docker backend algolia-docsearch
         run: docker build -t algolia_docsearch .
         working-directory: ./docker/algolia_docsearch
