@@ -27,9 +27,7 @@ Push the button below.
 
 ## Algolia Docsearch
 
-This vuepress using Algolia Docsearch and Build the scraper with CircleCI.
-
-[![CircleCI](https://circleci.com/gh/tubone24/markdown-memo.svg?style=svg)](https://circleci.com/gh/tubone24/markdown-memo)
+This vuepress using Algolia Docsearch and Build the scraper with GitHub Actions
 
 ## Gitpod
 
