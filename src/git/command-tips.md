@@ -649,6 +649,12 @@ git log --all | grep 'Author' | sort -u
 git restore ファイル名
 ```
 
+### ブランチのコミット履歴を全てリモートの状態にしたい
+
+```
+git fetch origin brach-name
+git reset --hard origin/branch-name
+```
 
 
 
