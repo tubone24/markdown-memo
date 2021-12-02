@@ -656,7 +656,14 @@ git fetch origin brach-name
 git reset --hard origin/branch-name
 ```
 
+### 未追跡ファイルをまとめて削除したい
 
+```
+# 確認
+git clean -dfn
 
+# 消去
+git clean -df
+```
 
 
