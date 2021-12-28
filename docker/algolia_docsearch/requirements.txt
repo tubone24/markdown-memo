@@ -6,6 +6,6 @@ ratelimit==1.4.1
 selenium==3.141.0
 slacker==0.9.60
 tldextract==2.1.0
-pytest==3.10.0
+pytest==3.10.1
 requests-iap==0.2.0
 pipenv
