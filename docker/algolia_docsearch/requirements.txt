@@ -4,7 +4,7 @@ pyperclip==1.5.27
 python-dotenv==0.7.1
 ratelimit==1.4.1
 selenium==3.141.0
-slacker==0.9.60
+slacker==0.14.0
 tldextract==2.1.0
 pytest==3.10.0
 requests-iap==0.2.0
