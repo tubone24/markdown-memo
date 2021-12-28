@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tubone24/markdown-memo#readme",
   "devDependencies": {
-    "vuepress": "^1.0.4"
+    "vuepress": "1.8.2"
   },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.4",
