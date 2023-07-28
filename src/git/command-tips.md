@@ -57,6 +57,12 @@ git ls-files
 git branch --contains [コミットハッシュ]
 ```
 
+### マージの結果コミットだけlogする
+
+```
+git log --merges
+```
+
 ## add
 
 ### 間違えてgit addしてしまった！
